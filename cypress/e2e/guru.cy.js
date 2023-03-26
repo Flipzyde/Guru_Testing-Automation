@@ -48,7 +48,7 @@ it('User can login successfully', () => {
       .get('.menusubnav > :nth-child(9) > a').click()
       .get(':nth-child(6) > :nth-child(2) > input').type('6879676019')
       .get(':nth-child(7) > :nth-child(2) > input').type('5000')
-      .get(':nth-child(8) > :nth-child(2) > input').type('I dash you')
+      .get(':nth-child(8) > :nth-child(2) > input').type('I dash you for free')
       .get('[type="submit"]').click();
 
       //User cannot sign in with invalid credentials 
